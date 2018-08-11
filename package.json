@@ -1,0 +1,14 @@
+{
+  "name": "discord-twist-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that manages twist information.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "url": "https://github.com/SaurabhTotey/Discord-Twist-Bot"
+  },
+  "author": "Saurabh Totey",
+  "license": "MIT"
+}
