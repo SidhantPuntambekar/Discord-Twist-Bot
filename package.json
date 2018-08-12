@@ -10,5 +10,9 @@
     "url": "https://github.com/SaurabhTotey/Discord-Twist-Bot"
   },
   "author": "Saurabh Totey",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.0",
+    "dotenv": "^6.0.0"
+  }
 }
