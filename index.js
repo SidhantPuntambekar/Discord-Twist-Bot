@@ -16,5 +16,9 @@ client.login(`${process.env.DiscordKey}`);
 
 //How the bot responds to a message being sent
 client.on('message', message => {
-    console.log(`Received message: '${message.content}'`)
+    //If the command doesn't have the bot mentioned, the bot ignores the message
+    if (!message.cleanContent.includes("@Tornado Twister#8282")) {
+        return;
+    }
+    client.message("Hello");
 })
