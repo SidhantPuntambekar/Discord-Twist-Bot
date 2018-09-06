@@ -1,19 +1,20 @@
 {
-  "name": "discord-twist-bot",
+  "name": "tornado-twister",
   "version": "1.0.0",
-  "description": "A Discord bot that manages twist information.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
-    "url": "https://github.com/SaurabhTotey/Discord-Twist-Bot"
+    "type": "git",
+    "url": "https://www.github.com/SaurabhTotey/Discord-Twist-Bot"
   },
   "author": "Saurabh Totey",
-  "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.4.0",
+    "discord.js": "^11.4.2",
     "dotenv": "^6.0.0",
-    "pg": "^7.4.3"
+    "request": "^2.88.0",
+    "typescript": "^3.0.3"
   }
 }
