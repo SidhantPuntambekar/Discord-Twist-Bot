@@ -7,6 +7,5 @@ let client = new Discord.Client();
 client.login(process.env.DiscordKey);
 
 client.on("ready", function() {
-    client.channels.array().pop().send("test");
 });
 
