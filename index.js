@@ -23,7 +23,7 @@ client.on('ready', () => {
         let twistjuryChannel = client.channels.array().find(channel => channel.id === process.env.twistjuryChannelID);
         if (message.content.includes("!twist!"))
         {
-            message.reply("Acknowledged");
+            message.reply("Acknowledged Good Sir!");
         }
     });
 
